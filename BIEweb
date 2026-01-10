@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PT Bumi Indah Etam (BIE)</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+  color: #1f2937;
+}
+
+header {
+  background: linear-gradient(135deg, #3b82f6, #93c5fd);
+  padding: 40px 20px;
+}
+
+nav {
+  background: #1e3a8a;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 14px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.lang {
+  text-align:center;
+  background:#eef2ff;
+  padding:10px;
+}
+
+.lang button {
+  margin: 0 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #c7d2fe;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+section {
+  background: #ffffff;
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 30px 25px;
+  background: linear-gradient(135deg, #ffffff, #f0f9ff);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.icon { font-size: 48px; margin-bottom: 15px; }
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+footer {
+  background: #1e40af;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap;">
+    <img src="logo.jpg" alt="PT Bumi Indah Etam Logo" style="height:80px; width:160px; object-fit:contain; background:#fff; padding:8px 12px; border-radius:10px;" />
+    <div>
+      <h1 data-en="PT Bumi Indah Etam (BIE)" data-id="PT Bumi Indah Etam (BIE)" data-zh="布米英达埃坦有限公司（BIE）">PT Bumi Indah Etam (BIE)</h1>
+      <p data-en="Industrial Warehouse & Land Rental" data-id="Sewa Gudang & Lahan Industri" data-zh="工业仓库与工业用地租赁">Industrial Warehouse & Land Rental</p>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="#about" data-en="About Us" data-id="Tentang Kami" data-zh="关于我们">About Us</a>
+  <a href="#services" data-en="Services" data-id="Layanan" data-zh="服务">Services</a>
+  <a href="#location" data-en="Location" data-id="Lokasi" data-zh="位置">Location</a>
+  <a href="#contact" data-en="Contact" data-id="Kontak" data-zh="联系我们">Contact</a>
+</nav>
+
+<div class="lang">
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('id')">Indonesia</button>
+  <button onclick="setLang('zh')">中文</button>
+</div>
+
+<section class="hero">
+  <h2 data-en="Prime Industrial Warehouse in Samarinda" data-id="Gudang Industri Strategis di Samarinda" data-zh="三马林达优质工业仓库">Prime Industrial Warehouse in Samarinda</h2>
+  <p data-en="Large-area warehouse land and customized facilities in Bukuan, Palaran." data-id="Lahan gudang luas dan fasilitas kustom di Bukuan, Palaran." data-zh="位于 Bukuan–Palaran 的大面积仓储与定制设施。">Large-area warehouse land and customized facilities in Bukuan, Palaran.</p>
+  <a href="https://wa.me/6588839755?text=Hi,%20I%20would%20like%20to%20enquire%20about%20the%20warehouse" target="_blank" class="btn" data-en="Enquire Now" data-id="Hubungi Kami" data-zh="立即咨询">Enquire Now</a>
+</section>
+
+<section id="about">
+  <h2 data-en="About Us" data-id="Tentang Kami" data-zh="关于我们">About Us</h2>
+  <p data-en="PT Bumi Indah Etam (BIE) is an Indonesian industrial property company focusing on warehouse and industrial land rental in strategic locations. We support logistics, manufacturing, and distribution businesses by providing flexible warehouse solutions, including ready-built facilities and customized warehouse development based on customer requirements." 
+     data-id="PT Bumi Indah Etam (BIE) adalah perusahaan properti industri di Indonesia yang berfokus pada penyewaan gudang dan lahan industri di lokasi strategis. Kami mendukung sektor logistik, manufaktur, dan distribusi dengan menyediakan solusi gudang yang fleksibel, termasuk gudang siap pakai dan pembangunan gudang sesuai kebutuhan pelanggan." 
+     data-zh="PT Bumi Indah Etam（BIE）是一家印度尼西亚工业地产公司，专注于战略位置的工业仓库及工业用地租赁。我们为物流、制造及配送企业提供灵活的仓储解决方案，包括现成仓库及根据客户需求定制建设的仓库设施。">
+     PT Bumi Indah Etam (BIE) is an Indonesian industrial property company focusing on warehouse and industrial land rental in strategic locations. We support logistics, manufacturing, and distribution businesses by providing flexible warehouse solutions, including ready-built facilities and customized warehouse development based on customer requirements.
+  </p>
+</section>
+
+<section id="services">
+  <h2 data-en="Our Services" data-id="Layanan Kami" data-zh="我们的服务">Our Services</h2>
+  <div class="grid">
+    <div class="card"><div class="icon">🏗️</div><h3 data-en="Custom Warehouse" data-id="Gudang Kustom" data-zh="定制仓库">Custom Warehouse</h3><p data-en="Warehouse sizes tailored to customer needs." data-id="Ukuran gudang sesuai kebutuhan pelanggan." data-zh="根据客户需求定制仓库规模。">Warehouse sizes tailored to customer needs.</p></div>
+    <div class="card"><div class="icon">🏭</div><h3 data-en="Ready Warehouse" data-id="Gudang Siap Pakai" data-zh="现成仓库">Ready Warehouse</h3><p data-en="Ready-built warehouses for immediate use." data-id="Gudang siap digunakan." data-zh="可立即使用的现成仓库。">Ready-built warehouses for immediate use.</p></div>
+    <div class="card"><div class="icon">🗺️</div><h3 data-en="Industrial Land" data-id="Lahan Industri" data-zh="工业用地">Industrial Land</h3><p data-en="Industrial land rental for customer development." data-id="Sewa lahan industri untuk pengembangan pelanggan." data-zh="可供客户自行开发的工业用地。">Industrial land rental for customer development.</p></div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2 data-en="Warehouse & Site Gallery" data-id="Galeri Gudang & Site" data-zh="仓库与场地图集">Warehouse & Site Gallery</h2>
+  <p data-en="View our warehouse facilities, land areas, and site plans." data-id="Lihat fasilitas gudang, area lahan, dan rencana lokasi kami." data-zh="查看我们的仓库设施、土地范围及场地规划。">View our warehouse facilities, land areas, and site plans.</p>
+  <div class="grid">
+    <div class="card"><img src="gallery1.jpg" alt="Warehouse Image" style="width:100%; border-radius:12px;"><p>Warehouse Exterior</p></div>
+    <div class="card"><img src="gallery2.jpg" alt="Warehouse Interior" style="width:100%; border-radius:12px;"><p>Warehouse Interior</p></div>
+    <div class="card"><img src="gallery3.jpg" alt="Site Plan" style="width:100%; border-radius:12px;"><p>Site Plan</p></div>
+  </div>
+</section>
+
+<section id="location">
+  <h2 data-en="Warehouse Location" data-id="Lokasi Gudang" data-zh="仓库位置">Warehouse Location</h2>
+  <p>Jalan Peti Kemas, Palaran Biz Park, Bukuan, Samarinda</p>
+  <iframe src="https://www.google.com/maps?q=Jalan%20Peti%20Kemas%20Palaran%20Biz%20Park%20Bukuan%20Samarinda&output=embed" width="100%" height="320" style="border:0; border-radius:12px;" loading="lazy"></iframe>
+</section>
+
+<section id="contact">
+  <h2 data-en="Contact Us" data-id="Hubungi Kami" data-zh="联系我们">Contact Us</h2>
+  <div style="display:grid; grid-template-columns: 1fr 1fr; gap:30px; align-items:start;">
+    <div>
+      <p><strong>PT Bumi Indah Etam</strong></p>
+      <p>Jl. AM Sangaji No. 10, Samarinda</p>
+      <p>Phone: 0541-6522020</p>
+      <p>Email: <a href="mailto:bumiindahetam@gmail.com">bumiindahetam@gmail.com</a></p>
+    </div>
+    <div>
+      <p style="margin:0 0 8px 0; font-weight:600; color:#1e3a8a;" data-en="Head Office Location" data-id="Lokasi Kantor Pusat" data-zh="总部位置">Head Office Location</p>
+      <iframe src="https://www.google.com/maps?q=Jl.%20AM%20Sangaji%20No.%2010%20Samarinda&output=embed" width="100%" height="220" style="border:0; border-radius:12px;" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 PT Bumi Indah Etam (BIE). All rights reserved.</p>
+</footer>
+
+<a href="https://wa.me/6588839755?text=Hi,%20I%20would%20like%20to%20enquire%20about%20the%20warehouse" target="_blank" style="position:fixed; bottom:20px; right:20px; background:#25D366; color:white; padding:15px 18px; border-radius:50%; font-size:22px; text-decoration:none;">☎</a>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-' + lang + ']').forEach(el => {
+    el.innerText = el.getAttribute('data-' + lang);
+  });
+}
+</script>
+
+</body>
+</html>
